@@ -87,7 +87,7 @@ ul li::before {
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    background-image: url('./svgs/unchecked.svg');
+    background-image: url('/svgs/unchecked.svg');
     background-size: cover;
     background-position: center;
     top: 11px;
@@ -100,7 +100,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-    background-image: url('./svgs/checked.svg');
+    background-image: url('/svgs/checked.svg');
 }
 
 ul li span {
